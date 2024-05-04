@@ -114,7 +114,15 @@ form button:hover{
     padding: 2%;
     display: inline-block;
     margin: 5px 50px;
+    transition: background-color, transform, color, 2s;
     text-align: center;
+    cursor: pointer;
+}
+
+.lista_section li:hover{
+    background-color: #99c5dd;
+    transform: rotate(30deg);
+    color: green;
 }
 
 .lista_section img{
